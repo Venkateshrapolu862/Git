@@ -20,7 +20,7 @@ WebDriver driver;
 		driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/test/delete_customer.php");
 		WebElement Custo = driver.findElement(By.xpath("//input[@type='text']"));
-		Custo.sendKeys("venky862");
+		Custo.sendKeys("venky862rapoluvenkatesh");
 		WebElement sub = driver.findElement(By.xpath("//input[@type='submit']"));
 		sub.click();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
